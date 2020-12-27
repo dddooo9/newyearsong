@@ -1,0 +1,242 @@
+@import
+url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700&display=swap');
+.cover{
+    width: 250px;
+    height: 250px;
+}
+.mail{
+    color: rgb(41, 157, 252);
+}
+.mail:hover{
+    color: rgb(41, 157, 252);
+    text-decoration: none;
+}
+.title-name{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+}
+.music{
+    line-height: 10px;
+}
+.artist-name{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: gray;
+}
+.lyric{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+}
+.container{
+    width: 360px;
+}
+.character{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: white;
+    line-height: 25px;
+    width: 100%;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+}
+.title{
+    text-align: center;
+    margin-top: 30px;
+}
+.title-txt{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 30px;
+    letter-spacing: -2px;
+}
+.titlebar{
+    background-image: url(../img/titlebar_long.png);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 800;
+    color: white;
+    font-size: 30px;
+    letter-spacing: -2px;
+}
+.main-txt{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 100;
+    color: white;
+    font-size: 18px;
+    letter-spacing: -2px;
+    line-height: 25px;
+}
+
+.round{
+    text-align: center;
+    background-image: url(../img/round01.png); 
+    width: 304px;
+    height: 304px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.round-txt{
+    margin-top: 30px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    padding-top: 120px;
+}
+
+.start-btn{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    color: white;
+    background-color: rgb(41,41,41);
+    border: none;
+    margin-top: 30px;
+    height: 60px;
+    width: 300px;
+    border-radius: 12px;
+}
+.start-btn:focus{
+    outline: none;
+}
+.q{
+    margin-top: 100px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    letter-spacing: -1px;
+}
+.goflo{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    width: 345px;
+    height: 95px;
+    color: white;
+    border-radius: 12px;
+}
+.goflo:focus{
+    outline: none;
+}
+.upbtn{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    width: 345px;
+    height: 90px;
+    color: white;
+    border-radius: 12px;
+}
+.upbtn:focus{
+    outline: none;
+}
+.btn{
+    text-align: center;
+    background-image: url(../img/originbtn01.png);
+    width: 376px;
+    height: 103px;
+}
+.gobtn{
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../img/originbtn01.png);
+    width: 376px;
+    height: 103px;
+}
+.gobtn:active{
+    background-image: url(../img/togglebtn02.png);
+    width: 372px;
+    height: 99px;
+}
+.otherbtn{
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../img/othersong01.png);
+    width: 369px;
+    height: 98px;
+}
+.btn:active {
+    background-image: url(../img/togglebtn02.png);
+    width: 372px;
+    height: 99px;
+}    
+.other{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    color: white;
+    width: 349px;
+    height: 99px;
+    border-radius: 12px;
+    text-align: center;
+}
+.other:focus{
+    outline: none;
+}
+.downbtn{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    color: white;
+    width: 345px;
+    height: 90px;
+    border-radius: 12px;
+    text-align: center;
+}
+.downbtn:focus{
+    outline: none;
+}
+
+.progress{
+    width: 376px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    background-color: black;
+}
+.progressbar{
+    width: 376px;
+    height: 103px;
+
+}
+.developer{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 10px;
+    color: white;
+    text-align: center;
+}
+.copytxt{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+.qbox{
+    width: 360px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}

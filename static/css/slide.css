@@ -1,0 +1,86 @@
+@import
+url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700&display=swap');
+    .slider {
+        width: 700px;
+        height: 800px;
+        margin: 200px auto;
+    }
+
+    .slick-slide {
+      margin: 0px 30px;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+      color: white;
+    }
+
+    .slick-slide {
+      transition: all ease-in-out .3s;
+      opacity: .2;
+    }
+    
+    .slick-active {
+      opacity: .5;
+    }
+
+    .slick-current {
+      opacity: 1;
+    }
+    .coverimg{
+      width: 500px;
+      height: 500px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .typegoflo{
+        text-align: center;
+        background-image: url(../img/goflogo01.png);
+        width: 446px;
+        height: 121px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .typegoflo:active{
+      background-image: url(../img/goflogotoggle03.png);
+      width: 443px;
+      height: 121px;
+    }
+    .typegobtn{
+        font-family: 'Noto Sans KR', sans-serif;
+        font-weight: 500;
+        font-size: 30px;
+        background-color: rgba(255, 255, 255, 0);
+        border: none;
+        color: white;
+        width: 440px;
+        height: 115px;
+        border-radius: 12px;
+        text-align: center;
+    }
+    .typegobtn:focus{
+      outline: none;
+  }
+    .type{
+        font-family: 'Noto Sans KR', sans-serif;
+        font-weight: 600;
+        font-size: 40px;
+        color: white;
+        text-align: center;
+    }
+    
+    .typetitle{
+        font-family: 'Noto Sans KR', sans-serif;
+        font-weight: 500;
+        font-size: 35px;
+        color: white;
+        text-align: center;
+        line-height: 0px;
+    }
+    .typeartist{
+        font-family: 'Noto Sans KR', sans-serif;
+        font-weight: 400;
+        font-size: 30px;
+        color: gray;
+        text-align: center;
+    }
