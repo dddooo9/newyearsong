@@ -5,7 +5,7 @@ $(document).ready(function () {
   'qna/qna5.html .progress','qna/qna6.html .progress','qna/qna7.html .progress','qna/qna8.html .progress'];
   var i=0;
   var aType=[['',''],['건강','재물'],['사랑','성장'],['사랑','성장'],['건강','사랑'],['재물','사랑'],['성장','재물'],['건강','재물'],['건강','사랑']];
-  var choise=[0,0,0,0]//[건강, 재물, 사랑, 성장]
+  var choise=[0,0,0,0]
   var result = '';
   $.resultchoise = function(num){
     switch (num) {
@@ -47,7 +47,14 @@ $(document).ready(function () {
 } 
   $.sortresult = function(){
     var choiseMax = Math.max.apply(null, choise);
-    if (choiseMax == 4 ){
+    if (choiseMax == 5 ){
+      for (var n=0; n<4;n++){
+          if (choise[n]==5){
+              result=result+String(n);
+          }
+      }
+      $.resultchoise(result);
+    } else if (choiseMax == 4 ){
       for (var n=0; n<4;n++){
           if (choise[n]==4){
               result=result+String(n);
