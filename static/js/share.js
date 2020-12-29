@@ -1,7 +1,7 @@
 $(document).ready(function () {
     $('.clipboardBtn').on('click', function(e) { 
         
-        var text = 'https://dddooo9.github.io';
+        var text = 'http://newyearsong.site/';
         $('#clip_target').val(text);
         $('#clip_target').select();
         // Use try & catch for unsupported browser 
